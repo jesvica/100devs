@@ -17,6 +17,6 @@ multiply(3,4,5)
 //create a function that divides two numbers and returns the ???
 function divide(num1,num2) {
     //return does not print to the console etc. must console log
-    return num1 / num2
+    return num1 % num2
 }
-console.log(divide(50,5))
+console.log(divide(50,4))
