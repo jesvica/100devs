@@ -11,7 +11,7 @@ alert(number)
 // *Functions*
 // Create a function that subtracts 4 numbers and alerts the difference
 function subtractFourNums(n1,n2,n3,n4) {
-
+    subtractFourNums = n1 - n2 - n3 - n4
 }
 
 // Create a function that divides one number by another and returns the remainder
@@ -34,4 +34,12 @@ addTwoNums(49, 31)
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
 function multiplyThreeNums(m1,m2,m3) {
     multiplyThreeNums = m1 * m2 * m3;
+
+    if (multiplyThreeNums % 3 === 0) {
+        alert('ZEBRA')
+    } else {
+        console.log('Number is not divisible by 3')
+    }
 }
+
+multiplyThreeNums(1,0.7,8)
