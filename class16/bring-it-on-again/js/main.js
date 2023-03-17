@@ -48,8 +48,8 @@ dayOfTheWeek()
 //Create a function that takes in a number. Console log all values from 1 to that number or greater, but count by 3
 function takeInANum(number) {
 
-    for(let i = 1; i <= number; i+= 3) {
-        console.log(number)
+    for(let i = 1; i <= number; i+=3) {
+        console.log(i)
     }
 }
-takeInANum(12)
+takeInANum(16)
