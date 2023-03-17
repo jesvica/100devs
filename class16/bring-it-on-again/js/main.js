@@ -29,10 +29,8 @@ function threeNums(n1,n2,n3) {
 threeNums(100,50,10)
 
 // Create a function that takes in a day of the week. If it is a weekend alert, "weekend" and if not alert "week day". Handle capitilization and if the user does not enter a day of the week alert "Try again!"
-
-
 function dayOfTheWeek() {
-     let day = prompt('What day of the week is it?')
+     let day = prompt('What day of the week is it?').toLowerCase()
 
     if(day === 'saturday' || day === 'sunday') {
         alert('weekend!')
