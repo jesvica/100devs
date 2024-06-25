@@ -1,0 +1,48 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+nav {
+    position: absolute;
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+main {
+    margin-left: 200px;
+}
+
+.activision-section {
+    width: 500px;
+    float: left;
+}
+
+.main-list {
+    float: right;
+    width: 400px;
+}
+
+.main-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.articles {
+    clear: both;
+    margin-left: 200px;
+}
+
+.articles ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* .bottom-articles {
+    list-style: none;
+} */
