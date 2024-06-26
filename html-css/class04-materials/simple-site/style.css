@@ -1,0 +1,56 @@
+* {
+    background-color: lightblue;
+    color: white;
+}
+
+body {
+    border: 5px solid lightgreen;
+    margin: 50px;
+    padding: 40px;
+    width: 50%;
+}
+
+
+ /*----- Header and nav styling -----*/
+h1 {
+    font-style: italic;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+a {
+    color: green;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+span {
+    color: black;
+}
+
+/* ----- Body styling ----- */
+h2, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img {
+    height: 200px;
+    width: auto;
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+footer {
+    text-align: center;
+}
