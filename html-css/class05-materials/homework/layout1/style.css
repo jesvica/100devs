@@ -1,6 +1,23 @@
+/* Box Model Hack */
 * {
     box-sizing: border-box;
 }
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/* Body */
 
 header, footer {
     height: 100px;
@@ -20,4 +37,34 @@ section {
     width: 50%;
     border: 3px solid black;
     float: left;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px){
+    main section {
+        display: none;
+    }
+
+    section {
+        background: green;
+        width: 100%;
+    }
+}
+
+@media (min-width:601px) and (max-width: 900px) {
+    main section, section {
+        width: 100%;
+        background: yellow;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    main section {
+        height: 250px;
+        background: red;
+    }
+
+    section {
+        background: red;
+    }
 }
