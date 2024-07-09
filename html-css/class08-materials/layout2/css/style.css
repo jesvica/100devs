@@ -30,7 +30,16 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
+  float: left;
+}
 
+nav {
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
 }
 
 footer {
