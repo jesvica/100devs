@@ -51,6 +51,7 @@ nav form input {
   width: 100%;
 }
 
+/* Main Section */
 main {
   float: left;
 }
@@ -60,16 +61,17 @@ main > section {
   width: 50%;
 }
 
-/* main section + section {
-  float: left;
-  width: 40%;
-} */
-
 main section > section {
   float: left;
   width: 50%;
 }
 
+main section + section img {
+  height: 150px;
+  width: auto;
+}
+
+/* News Section */
 .news-section section {
   float: left;
   width: 33.3333%;
