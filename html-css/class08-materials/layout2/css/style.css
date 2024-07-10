@@ -21,31 +21,49 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header nav > * {
   float: left;
+  margin: 0 5%;
 }
 
 nav {
-  float: left;
+  height: 50px;
+  width: auto;
 }
 
-nav ul li {
-  float: left;
-  list-style: none;
+header img {
+  height: 10s0px;
+  width: auto;
 }
 
-footer {
+nav li {
+  float: left;
+  margin-right: 10px;
+}
 
+main {
+  clear: both;
+}
+
+main img {
+  float: left;
+  width: 50%;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+nav ul li {
+  list-style: none;
+}
+
+section ul li {
+  list-style: none;
+  float: left;
+  width: 12.5%;
+}
