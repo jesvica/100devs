@@ -37,6 +37,8 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+/* ---- Header and nav styling ---- */
 header nav {
      display: flex;
      justify-content: space-around;
@@ -74,6 +76,25 @@ nav button {
 nav button a {
      color: rgb(245, 248, 251);
      text-decoration: none;
+}
+
+
+/* ---- Main section styling ---- */
+main {
+     display: flex;
+}
+
+section {
+     margin: 50px 0;
+}
+
+h1 {
+     font-size: 2.75rem;
+}
+
+.main-text {
+     margin: auto;
+     padding: 0 100px;
 }
 
 footer {
