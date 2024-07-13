@@ -45,7 +45,7 @@ header nav {
      align-items: center;
 }
 
-h2 {
+h1, h2, p {
      color: rgb(53, 69, 87);
 }
 
@@ -71,11 +71,17 @@ nav button {
      color: rgb(245, 248, 251);
      width: 8rem;
      height: 2.5rem;
+     border: none;
 }
 
 nav button a {
      color: rgb(245, 248, 251);
      text-decoration: none;
+     font-weight: 500;
+}
+
+nav button:hover {
+     cursor: pointer;
 }
 
 
@@ -95,6 +101,32 @@ h1 {
 .main-text {
      margin: auto;
      padding: 0 100px;
+}
+
+.main-text span {
+     color: rgb(129, 147, 166);
+     font-weight: 700;
+}
+
+form input {
+     background-color: rgb(226, 233, 239);
+     border: none;
+     width: 250px;
+     height: 40px;
+     padding: 0 15px;
+}
+
+form button {
+     height: 40px;
+     border: none;
+     background-color: rgb(53, 69, 87);
+     font-weight: 500;
+     color: rgb(245, 248, 251);
+     padding: 0 30px;
+}
+
+form button:hover {
+     cursor: pointer;
 }
 
 footer {
