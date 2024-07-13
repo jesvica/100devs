@@ -176,3 +176,78 @@ form button:hover {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* ---- Mobile styling ---- */
+@media only screen and (max-device-width: 600px) {
+     header nav ul, header button {
+          display: none;
+     }
+
+     header {
+          border-bottom: 2px solid rgb(53, 69, 87);
+          margin-bottom: 50px;
+     }
+
+     header nav h2 {
+          font-size: 3rem;
+     }
+
+     h1 {
+          font-size: 5rem;
+     }
+
+     /* header nav img {
+          display: inline-block;
+     } */
+
+     .main-text span, .main-text p {
+          font-size: 2rem;
+     }
+
+     .main-section-image {
+          display: none;
+     }
+
+     /* .main-image-mobile {
+          justify-content: flex-end;
+     } */
+
+     form input, form button {
+          width: 100%;
+          font-size: 2rem;
+          height: 5rem;
+          margin: 10px 0;
+     }
+
+     .feature-section ul  {
+          display: flex;
+          flex-wrap: wrap;
+     }
+
+     .feature-section ul li {
+          width: 100%;
+          font-size: 2rem;
+          padding: 60px 0;
+          text-align: center;
+     }
+
+     .info-section {
+          text-align: center;
+     }
+
+     .info-section h2 {
+          font-size: 4rem;
+          width: 100%;
+     }
+
+     .info-section p {
+          width: 100%;
+          font-size: 2rem;
+     }
+}
+
+@media only screen and (min-device-width: 601px) {
+     header nav img {
+          display: none;
+     }
+}
