@@ -22,20 +22,56 @@
 /*******************************************/
 
 body {
-
+     background-color: rgb(105, 118, 136);
+     font-family: "Noto Sans", sans-serif;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+/* header {
+     display: flex;
+} */
 
+nav ul {
+     display: flex;
+     justify-content: space-between;
+     margin: 0;
+     padding: 0;
+     font-weight: 600;
 }
 
-footer {
-
+header nav ul {
+     list-style: none;
+     padding: 20px 15px;
 }
+
+nav div {
+     display: flex;
+}
+
+nav div li {
+     margin-right: 10px;
+}
+
+nav li, nav a {
+     color: white;
+}
+
+nav a {
+     text-decoration: none;
+}
+
+nav button {
+     border: none;
+     padding: 10px 8px; 
+     border-radius: 5px;
+     background-color: white;
+     color: rgb(105, 118, 136);
+     font-weight: 700;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
