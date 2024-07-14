@@ -23,16 +23,14 @@
 
 body {
      background-color: rgb(105, 118, 136);
-     font-family: "Noto Sans", sans-serif;
+     font-family: "Open Sans", sans-serif;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-/* header {
-     display: flex;
-} */
+/* ----- Header Styling ----- */
 
 nav ul {
      display: flex;
@@ -72,6 +70,29 @@ nav button {
      font-weight: 700;
 }
 
+/* ----- Main Styling ----- */
+h1, p {
+     color: white;
+     text-align: center;
+}
+
+h1 {
+     font-size: 3rem;
+     font-weight: 600;
+}
+
+p {
+     padding: 0 275px;
+}
+
+main a {
+     color: white;
+     text-decoration: none;
+}
+
+main p img {
+     height: 30px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
