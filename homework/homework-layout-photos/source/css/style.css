@@ -208,9 +208,10 @@ form button:hover {
           display: none;
      }
 
-     /* .main-image-mobile {
-          justify-content: flex-end;
-     } */
+     .main-image-mobile {
+          float: right;
+          clear: both;
+     }
 
      form input, form button {
           width: 100%;
@@ -222,6 +223,7 @@ form button:hover {
      .feature-section ul  {
           display: flex;
           flex-wrap: wrap;
+          clear: both;
      }
 
      .feature-section ul li {
