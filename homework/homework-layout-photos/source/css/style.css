@@ -258,4 +258,8 @@ form button:hover {
      header nav img {
           display: none;
      }
+
+     .main-image-mobile {
+          display: none;
+     }
 }
