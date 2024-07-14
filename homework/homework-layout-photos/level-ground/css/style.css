@@ -71,6 +71,10 @@ nav button {
 }
 
 /* ----- Main Styling ----- */
+main {
+     padding: 60px 0;
+}
+
 h1, p {
      color: white;
      text-align: center;
@@ -92,6 +96,113 @@ main a {
 
 main p img {
      height: 30px;
+}
+
+/* ----- Section Styling ----- */
+section {
+     text-align: center;
+     background-color: white;
+     padding: 100px 0;
+}
+
+section p {
+     color: black;
+     padding: 0 30%;
+}
+
+.link {
+     padding: 20px 0;
+}
+
+section a {
+     text-decoration: none;
+     font-weight: 500;
+     color: black;
+     border: 1px solid black;
+     padding: 10px 15px;
+}
+
+/* Visit Section */ 
+#visit-section {
+     background-color: rgb(220, 223, 226);
+     display: flex;
+}
+section ul {
+     display: flex;
+}
+
+section ul li div {
+     margin: 0 auto;
+     height: 200px;
+     width: 320px;
+     background-color: rgb(105, 118, 136);
+}
+
+section + section li {
+     list-style: none;
+     /* width: 50%; */
+}
+
+/* ----- Footer ----- */
+footer {
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(24, 31, 41);
+     color: white;
+     padding: 10px 40px;
+}
+
+footer .footer-outer {
+     background-color: rgb(24, 31, 41);
+     padding: 0;
+     justify-content: space-between;
+}
+
+.footer-outer h6 {
+     font-size: 0.7rem;
+}
+
+footer img {
+     height: 35px;
+}
+
+footer h6 {
+     margin: 0;
+}
+
+.footer-outer div {
+     margin: 25px 0;
+}
+
+footer .footer-outer div ul {
+     list-style: none;
+     font-size: 0.8rem;
+     display: flex;
+     padding: 0;
+}
+
+footer .footer-outer div ul li {
+     margin-right: 10px;;
+}
+
+footer .footer-outer div ul li a {
+     border: none;
+     color: white;
+     text-decoration: none;
+}
+
+/* footer .footer-right h6 {
+     width: 60%;
+} */
+
+address {
+     width: 50%;
+     font-size: 0.9rem;
+}
+
+.below-footer {
+     float: left;
+     clear: both;
 }
 
 /******************************************
