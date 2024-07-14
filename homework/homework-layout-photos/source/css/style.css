@@ -189,16 +189,22 @@ form button:hover {
      }
 
      header nav h2 {
-          font-size: 3rem;
+          font-size: 4rem;
      }
 
      h1 {
           font-size: 5rem;
      }
 
-     /* header nav img {
-          display: inline-block;
-     } */
+     header nav h2 {
+          text-align: center;
+          width: 90%;
+     }
+
+     header nav img {
+          float: left;
+          width: 10%;
+     }
 
      .main-text span, .main-text p {
           font-size: 2rem;
