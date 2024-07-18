@@ -24,17 +24,20 @@
 body {
 }
 
+section {
+  /* height: 600px; */
+  padding: 10px 75px;
+}
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 /* ----- Header and nav styling ----- */
 .header-main {
-  background-image: url(../images/fruit-veg.jpeg);
+  background-image: url(../images/fruit-veg.jpg);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-  /* height: 100%; */
   padding: 10px 75px;
 }
 
@@ -106,6 +109,40 @@ main ul li {
 main ul li a {
   text-decoration: none;
   color: black;
+}
+
+/* ----- About Us Section Styling ----- */
+.about-us {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+}
+
+.about-us {
+  /* background image */
+  background-image: url(../images/cherry-pie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* section styling */
+  height: 600px;
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin-top: 0;
+}
+
+h6 {
+  margin-bottom: 10px;
+}
+
+.about-us p {
+  /* width: 50%; */
 }
 
 /* ----- Footer Styling ----- */
