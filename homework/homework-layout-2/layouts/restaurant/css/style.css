@@ -22,17 +22,93 @@
 /*******************************************/
 
 body {
-
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+/* ----- Header and nav styling ----- */
+.header-main {
+  background-image: url(../images/fruit-veg.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100%; */
+  padding: 10px 75px;
+}
+
 header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ----- Main Section Styling ----- */
+main {
+  width: 50%;
 
 }
 
+h1 {
+  width: 75%;
+  font-size: 4rem;
+}
+
+form input {
+  width: 70%;
+  padding: 10px 7px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid gray;
+  margin-right: -10px;
+}
+
+form button {
+  width: 15%;
+  padding: 11px 10px;
+  border-radius: 0 8px 8px 0;
+  background-color: rgb(239, 142, 52);
+  border: none;
+}
+
+form button:hover {
+  cursor: pointer;
+}
+
+form button a {
+  color: white;
+  text-decoration: none;
+}
+
+main ul {
+  display: flex;
+  padding: 0;
+}
+
+main ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+main ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ----- Footer Styling ----- */
 footer {
 
 }
