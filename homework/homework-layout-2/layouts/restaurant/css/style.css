@@ -145,6 +145,51 @@ h6 {
   /* width: 50%; */
 }
 
+/* ----- Speciality Cuisine Section Styling ----- */
+.speciality-cuisine {
+  background-color: rgb(241, 244, 245);
+  text-align: center;
+}
+
+.speciality-cuisine ul.meal-section{
+  display: flex;
+  justify-content: center;
+}
+
+.speciality-cuisine ul li {
+  list-style: none;
+  width: 10%;
+}
+
+.speciality-cuisine ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-bottom: 2px solid black;
+}
+
+.speciality-cuisine ul li a:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+/* Images */
+.food-image-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.food-image-section img {
+  height: 300px;
+  width: auto;
+}
+
+.food-image-section ul li {
+  flex-wrap: wrap;
+}
+
+
 /* ----- Footer Styling ----- */
 footer {
 
