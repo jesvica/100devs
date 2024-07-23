@@ -24,6 +24,11 @@
 body {
 }
 
+h6 {
+  color: rgb(239, 142, 52);
+  font-size: 1.1rem;
+}
+
 section {
   /* height: 600px; */
   padding: 10px 75px;
@@ -161,10 +166,11 @@ h6 {
   width: 10%;
 }
 
+
 .speciality-cuisine ul li a {
   color: black;
   text-decoration: none;
-  padding: 10px 40px;
+  padding: 10px 50px;
   border-bottom: 2px solid black;
 }
 
@@ -189,6 +195,37 @@ h6 {
   flex-wrap: wrap;
 }
 
+/* ----- Opening Hours Styling ----- */
+
+.opening-hours {
+  text-align: center;
+   /* background image */
+   background-image: url(../images/tea-fruit.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.opening-hours ul {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+.opening-hours ul li {
+  list-style: none;
+}
+
+.opening-hours ul li p+p {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+
+img#bowl-of-fruit {
+  margin: 0 auto;
+  width: 700px;
+  height: auto;
+}
 
 /* ----- Footer Styling ----- */
 footer {
