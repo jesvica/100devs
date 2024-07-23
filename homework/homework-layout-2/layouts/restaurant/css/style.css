@@ -21,9 +21,6 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-}
-
 h6 {
   color: rgb(239, 142, 52);
   font-size: 1.1rem;
@@ -146,10 +143,6 @@ h6 {
   margin-bottom: 10px;
 }
 
-.about-us p {
-  /* width: 50%; */
-}
-
 /* ----- Speciality Cuisine Section Styling ----- */
 .speciality-cuisine {
   background-color: rgb(241, 244, 245);
@@ -196,13 +189,13 @@ h6 {
 }
 
 /* ----- Opening Hours Styling ----- */
-
 .opening-hours {
   text-align: center;
    /* background image */
    background-image: url(../images/tea-fruit.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+   padding-bottom: 60px;
 }
 
 .opening-hours ul {
@@ -227,10 +220,32 @@ img#bowl-of-fruit {
   height: auto;
 }
 
-/* ----- Footer Styling ----- */
-footer {
-
+/* ----- Quote Section Styling ----- */
+.quote-section {
+  height: 600px;
+  text-align: center;
+   /* background image */
+   /* background-image: url(../images/quote-symbol.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.3; */
 }
+
+#headshot {
+  height: 100px;
+  width: auto;
+  border-radius: 100%;
+}
+
+#stars {
+  height: 50px;
+  width: auto;
+}
+
+.quote span {
+  clear: both;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
