@@ -61,8 +61,12 @@ main section, .bottom section{
 }
 /* On laptop, please keep the normal layout, but everything should be light green */
 @media (min-width: 851px) and (max-width: 1500px) {
-  section {
+  /* section {
     background-color: lightgreen;
+  } */
+
+  main, .bottom {
+    background: lightgreen;
   }
 }
 /* On larger screens, please keep the normal layout, but everything should be light blue */
