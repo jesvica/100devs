@@ -21,6 +21,11 @@ function makeSpring() {
     document.querySelector('ul').style.color = 'white'
     document.querySelector('h1').style.color = 'white'
     document.querySelector('span').style.color = 'white'
+    document.querySelector('li').style.border = '2px solid white'
+    document.querySelector('li+li').style.border = '2px solid white'
+    document.querySelector('li+li+li').style.border = '2px solid white'
+    document.querySelector('li+li+li+li').style.border = '2px solid white'
+    ocument.querySelector('#reset').style.border = '2px solid white'
 }
 
 function makeSummer() {
@@ -28,6 +33,11 @@ function makeSummer() {
     document.querySelector('ul').style.color = 'white'
     document.querySelector('h1').style.color = 'white'
     document.querySelector('span').style.color = 'white'
+    document.querySelector('li').style.border = '2px solid white'
+    document.querySelector('li+li').style.border = '2px solid white'
+    document.querySelector('li+li+li').style.border = '2px solid white'
+    document.querySelector('li+li+li+li').style.border = '2px solid white'
+    ocument.querySelector('#reset').style.border = '2px solid white'
 }
 
 function makeAutumn() {
@@ -35,6 +45,11 @@ function makeAutumn() {
     document.querySelector('ul').style.color = 'white'
     document.querySelector('h1').style.color = 'white'
     document.querySelector('span').style.color = 'white'
+    document.querySelector('li').style.border = '2px solid white'
+    document.querySelector('li+li').style.border = '2px solid white'
+    document.querySelector('li+li+li').style.border = '2px solid white'
+    document.querySelector('li+li+li+li').style.border = '2px solid white'
+    ocument.querySelector('#reset').style.border = '2px solid white'
 }
 
 function makeWinter() {
