@@ -4,14 +4,16 @@ document.querySelector('#check').addEventListener('click', check)
 
 function check() {
 
-  const day = document.querySelector('#day').value
+  const day = document.querySelector('#day').value.toLowerCase();
 
   if(day === "tuesday" || day === "thursday"){
-    console.log("YOU HAVE CLASS")
+    document.querySelector('#placeToSee').innerHTML = "You have class!"
   }else if( day === "saturday" || day === "sunday"){
-    console.log("Its The Weekend")
-  }else{
-    console.log("BORING")
+    document.querySelector('#placeToSee').innerHTML = "It's the weekend!"
+  } else if (day === "wednesday") {
+    document.querySelector('#placeToSee').innerHTML = "It's humpday!"
+  } else{
+    document.querySelector('#placeToSee').innerHTML = "BORING"
   }
 
 }
