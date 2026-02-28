@@ -7,7 +7,7 @@ num -= 10;
 console.log(num);
 //--- Medium
 //create a variable that holds a value from the input
-let input = Number(prompt('Enter a number:'));
+let input = document.querySelector('input').value;
 //add 25 to that number
 input += 25;
 //alert that number
