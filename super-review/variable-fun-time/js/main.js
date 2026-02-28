@@ -7,19 +7,17 @@ num -= 10;
 console.log(num);
 //--- Medium
 //create a variable that holds a value from the input
-let input = document.querySelector('input').value;
+let numFromInput = Number(document.querySelector('input').value);
 //add 25 to that number
-input += 25;
+numFromInput += 25;
 //alert that number
-alert(input);
+alert(numFromInput);
 //--- Hard
 //create a variable that holds the h1
 let header = document.querySelector('h1');
 //add an event listener to that element that console logs the sum of the two previous variables
-document.addEventListener('click', calculateSum);
+header.addEventListener('click', calculateSum);
 
 function calculateSum() {
-    num += input;
+    console.log(num + numFromInput);
 }
-
-console.log(calculateSum);
