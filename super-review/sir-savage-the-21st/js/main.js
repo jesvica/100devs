@@ -6,5 +6,11 @@ function savage() {
         console.log('21');
     }
 }
-
 savage();
+
+function savagePrint() {
+    for (let i = 0; i < 21; i++) {
+        document.getElementById('savageSays').innerText += ' 21';
+    }
+}
+savagePrint();
